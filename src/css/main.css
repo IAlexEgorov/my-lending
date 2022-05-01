@@ -3,12 +3,17 @@
 	src: url(/src/fonts/Rochester-Regular.ttf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 :root {
     --black: #0F0F0F;
     --white: #FFFFFF;
     --red: #E63030;
 }
-
 
 html{
     position: relative;
